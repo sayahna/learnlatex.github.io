@@ -21,7 +21,7 @@ toc-description: "Typesetting with LaTeX in Malayalam."
 2. ചില്ലക്ഷരങ്ങള്‍ക്കു മുമ്പ് മുറിക്കാതിരിക്കുക
 3. zero width joiner, zero width non-joiner ഇവയ്ക്കു ശേഷം മുറിക്കാതിരിക്കുക
 
-സീറ്റെൿ ഉപയോഗിച്ച് ഈ നിയമങ്ങളനുസരിക്കും വിധം മലയാളപാഠം വിന്യസിക്കുവാൻ `polyglossia` എന്ന പാക്കേജ് ഉപയോഗിച്ച് സാധിക്കും.
+സീറ്റെൿ (XeTeX) ഉപയോഗിച്ച് ഈ നിയമങ്ങളനുസരിക്കും വിധം മലയാളപാഠം വിന്യസിക്കുവാൻ `polyglossia` എന്ന പാക്കേജ് ഉപയോഗിച്ച് സാധിക്കും.
 
 ```latex
 \documentclass{article}
