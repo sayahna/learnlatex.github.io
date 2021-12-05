@@ -11,30 +11,28 @@ permalink: /en/help
   }
 </script>
 
-# Help
+
+# സഹായം
 
 
-## Navigating the site
+## ഈ സൈറ്റിലൂടെയുള്ള സഞ്ചാരം
 
-The course consists of 16 core lessons that can be reached from the
-[table of contents]({{ "/" | absolute_url | append: page.lang | append: "/#toc" }}) on the [start page](./).
+ [ആദ്യ പേജിലെ](./) [ഉള്ളടക്കത്തിൽ]({{ "/" | absolute_url | append: page.lang | append: "/#toc" }}) നിന്നു് എത്തിച്ചേരാവുന്ന
+ 16 മുഖ്യ പാഠങ്ങളാണു് ഈ പാഠ്യപദ്ധതിയിലുള്ളതു്.
 
-Each lesson has a link to one associated lesson on the same subject
-that goes into greater depth. It should be possible to work through
-all 16 lessons _without_ reading the additional lessons.
+ ഓരോ പാഠത്തിനും ആ വിഷയത്തിൽ കൂടുതലാഴത്തിലുള്ള മറ്റൊരു അനുബന്ധപാഠത്തിലേക്കുള്ള കണ്ണിയുണ്ട്.
+ പതിനാറു പാഠങ്ങളും ഈ അനുബന്ധപാഠങ്ങൾ _വായിക്കാതെ_ തന്നെ പൂര്‍ത്തിയാക്കുക സാദ്ധ്യമാണ്.
 
-At the end of the course there are one or more lessons specific to the
-language being used for the lessons, and finally a gallery of examples
-of packages demonstrating LaTeX use not covered by this course.
+പാഠങ്ങള്‍ക്കുപയോഗിച്ച ഭാഷയിലുള്ള ഒന്നോ അതിലധികമോ പാഠങ്ങളും, ഇവിടെ പ്രതിപാദിച്ചിട്ടില്ലാത്ത
+ലാറ്റെൿ പാക്കേജുകളുടെ ഉദാഹരണ സഞ്ചയവും പാഠ്യപദ്ധതിക്കവസാനം ലഭ്യമാണ്.
 
 ---
 
-## Examples
+## ഉദാഹരണങ്ങൾ
 
-### Running the examples
+### ഉദാഹരണങ്ങളുടെ പ്രവര്‍ത്തനം
 
-Each example consists of a complete small LaTeX document shown within
-the page like this:
+താളിലുള്‍പ്പെടുത്തിയിട്ടുള്ള ഓരോ ഉദാഹരണത്തിലും ഇതുപോലൊരു ഒരു സമ്പൂര്‍ണ്ണ ലാറ്റെൿ പ്രമാണം കാണും:
 
 ```latex
 \documentclass{article}
@@ -45,113 +43,87 @@ Example text.
 \end{document}
 ```
 
-Each example is complete. However you may wish to edit it to make small
-changes, perhaps as part of an Exercise set at the end of the lesson.
+ഓരോ ഉദാഹരണവും ഒരു പൂര്‍ണ പ്രമാണമാണ്. എങ്കിലും പാഠത്തിനവസാനം അഭ്യാസത്തിന്റെ ഭാഗമായും മറ്റും
+നിങ്ങള്‍ക്ക് അവയിൽ മാറ്റങ്ങൾ വരുത്താവുന്നതാണു്.
 
-The editor being used is [ACE](https://ace.c9.io/).
+ഇവിടെ ഉപയോഗിക്കുന്നത് [ACE](https://ace.c9.io/) എഡിറ്റർ ആണ്.
 
-You may customise the theme used in the editor (for example using a
-dark theme with light text on a dark background) on the [Site Settings](settings) page.
-A convenient way to experiment with different themes is to to use <kbd>Ctrl</kbd>+<kbd>,</kbd> (<kbd>⌘</kbd>+<kbd>,</kbd> on Mac)
-while on any example in the site. [This displays a panel](javascript:acesettings()) which allows you to change all the ACE settings.
+എഡിറ്ററിന്റെ കെട്ടും മട്ടും  (ഉദാ: ഇരുണ്ട പശ്ചാത്തലത്തിൽ വെളുത്ത അക്ഷരങ്ങൾ) വേണമെങ്കിൽ [സൈറ്റ് സജ്ജീകരണങ്ങൾ](settings) എന്ന താളിൽ മാറ്റാവുന്നതാണ്.
+കെട്ടിലും മട്ടിലും പരീക്ഷണത്തിനുള്ള എളുപ്പവഴിയായി ഇവിടെയുള്ള ഏത് ഉദാഹരണത്തിൽ നിന്നും <kbd>Ctrl</kbd>+<kbd>,</kbd> (മാൿ ആണെങ്കിൽ <kbd>⌘</kbd>+<kbd>,</kbd>)
+കീബോഡ് കട്ടകൾ ഉപയോഗിക്കാവുന്നതാണ്.
+എല്ലാ ACE സജ്ജീകരണങ്ങളും മാറ്റാൻ [ഈ പാളി](javascript:acesettings()) വഴി സാധിക്കും.
 
-The ACE repository has a [useful page of editor keyboard shortcuts](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts).
+[കീബോഡ് സൂത്രക്കട്ടകളുടെ ഉപകാരപ്രദമായ ഒരു താൾ](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts) ACE ഉറവയിലുണ്ട്.
 
 
 
-#### Three ways to run the example
+#### ഉദാഹരണങ്ങൾ പ്രവര്‍ത്തിപ്പിക്കാനുള്ള മൂന്നു വഴികൾ
 
-* Use the Overleaf service
-* Use the TeXLive.net service
-* Use a locally installed TeX system
+* ഓവർലീഫ് സേവനം ഉപയോഗിച്ച്
+* ടെൿലൈവ്.നെറ്റ്  സേവനം ഉപയോഗിച്ച്
+* സ്വയം ഇന്‍സ്റ്റാൾ ചെയ്ത ടെൿ സംവിധാനം ഉപയോഗിച്ച്
 
-##### Use the Overleaf service
+##### ഓവർലീഫ് സേവനം ഉപയോഗിക്കുന്നത്
 
-Overleaf is one of the most popular online LaTeX editing services. The 
-<button>Open in Overleaf</button> button, below the example, will submit the 
-code to [Overleaf](https://www.overleaf.com/about).
+വളരെ ജനപ്രിയമായ ഒരു ഓണ്‍ലൈൻ ലാറ്റെൿ പ്രസിദ്ധീകരണ സേവനമാണ് ഓവര്‍ലീഫ്. ഉദാഹരണങ്ങള്‍ക്കു താഴെയുള്ള,
+<button>ഓവര്‍ലീഫിൽ തുറക്കുക</button> എന്ന ബട്ടൺ, കോഡ് [ഓവര്‍ലീഫിനു](https://www.overleaf.com/about) കൈമാറും.
 
-If you do not have an account, or the account details are not
-already cached in your browser, then you will be redirected to a
-login page where you may login or register with Overleaf. This is a
-free service but does require you to give some details and agree to
-terms and conditions.
+നിങ്ങള്‍ക്ക് ഓവര്‍ലീഫ് അക്കൗണ്ട് ഇല്ലെങ്കിലോ വെബ് ബ്രൗസറിൽ ലോഗിൻ ചെയ്തിട്ടില്ലെങ്കിലോ, ലോഗിൻ ചെയ്യാനോ അക്കൗണ്ട് തുറക്കാനോ സാധിക്കുന്ന താളിലേയ്ക്ക് വഴികാട്ടും. ഇതൊരു സൗജന്യ സേവനമാണ്, പക്ഷേ കുറച്ചു വിവരങ്ങൾ നല്കി നിബന്ധനകൾ സമ്മതിക്കേണ്ടതുണ്ട്.
 
-If your Overleaf account is already cached in your browser, then
-Overleaf will be opened in a new tab, with a new
-project with the code. You may then edit it in
-Overleaf which will simultaneously run LaTeX on your code showing
-the resulting output or error log.
+ലോഗിൻ ചെയ്തിട്ടുണ്ടെങ്കിൽ ഓവര്‍ലീഫ് ഒരു പുതിയ താളിൽ തുറന്ന് കോഡ് തിരുത്താനും ലാറ്റെൿ പ്രവര്‍ത്തിപ്പിച്ച് പ്രമാണം (അല്ലെങ്കിൽ എറർ ലോഗ് - പ്രശ്നങ്ങൾ) കാണുവാനും സാധിക്കും.
 
-Unlike documents processed at TeXLive.net, you may save your project
-in your Overleaf account and return to it later.
+ഈ പ്രൊജക്റ്റ് ഓവര്‍ലീഫിൽ സൂക്ഷിക്കാനും പിന്നീട് തുറന്നു നോക്കാനും സാധിക്കും, ടെൿലൈവ്.നെറ്റിൽ പ്രവര്‍ത്തിപ്പിക്കുന്ന പ്രമാണങ്ങൾ
+ഈ വിധം സൂക്ഷിക്കുവാൻ സാധിക്കില്ല.
 
-##### Use the TeXLive.net service
 
-The <button>Run at TeXLive.net</button> button, below the example, will submit the code to the 
-[TeXLive.net](https://texlive.net) service[^1].
+##### ടെൿലൈവ്.നെറ്റ് സേവനം ഉപയോഗിക്കുന്നത്
 
-The TeXLive.net service was developed specifically to support this site, and
-in particular makes use of [PDF.js](https://mozilla.github.io/pdf.js/)
-to enable display of PDF on mobile and other browsers without built in PDF 
-readers.
+ഉദാഹരണങ്ങള്‍ക്കു താഴെയുള്ള,
+<button>ടെൿലൈവ്.നെറ്റിൽ തുറക്കുക</button> എന്ന ബട്ടൺ, കോഡ് [ടെൿലൈവ്.നെറ്റിനു](https://texlive.net) കൈമാറും [^1].
 
-The resulting PDF document (or section of the error log) will be
-shown inline immediately below the example. A <button>Delete
-Output</button> button will be provided so that you may remove this output
-(or you may leave it in place and continue the rest of the lesson
-below).
+ടെൿലൈവ്.നെറ്റ് സേവനം വികസിപ്പിച്ചതു് പ്രധാനമായും ഈ വെബ്‌‍സൈറ്റിനു വേണ്ടിയാണ്. ഇതിൽ [PDF.js](https://mozilla.github.io/pdf.js/) ഉപയോഗിച്ച് മൊബൈലിലും അവശ്യ സോഫ്റ്റ്‌വെയറുകളില്ലാത്ത മറ്റു ബ്രൗസറുകളിലും പിഡിഎഫ് നന്നായി കാണിക്കും.
 
-Note that **TeXLive.net** requires no login or signup of any sort
-so it is very convenient for small examples, but this site
-provides no  mechanism to save your document. Any changes that you
-make to the example are lost if you move off the page.
+പരിണിതമായി ലഭിക്കുന്ന പിഡിഎഫ് പ്രമാണം (അല്ലെങ്കിൽ എറർ ലോഗ്) ഉദാഹരണത്തിനു ചുവടെ ഉടനടി പ്രദര്‍ശിപ്പിക്കും.
+ആവശ്യമെങ്കിൽ <button>പ്രമാണം നീക്കുക</button> എന്ന ബട്ടൺ ഉപയോഗിച്ച് ഇതു നീക്കം ചെയ്യാം (അല്ലെങ്കിൽ അവിടെത്തന്നെ നിലനിര്‍ത്തി അടുത്ത പാഠഭാഗത്തിലേയ്ക്കു നീങ്ങാം).
 
-##### Locally installed TeX system
+ശ്രദ്ധിക്കേണ്ട കാര്യം, **ടെൿലൈവ്.നെറ്റ്** പ്രവര്‍ത്തിപ്പിക്കാൻ ലോഗിൻ, അക്കൗണ്ട് തുറക്കൽ മുതലായ യാതൊരു നടപടിക്രമങ്ങളും
+ആവശ്യമില്ല; ആയതിനാൽ തന്നെ നിങ്ങളുണ്ടാക്കുന്ന പ്രമാണങ്ങൾ സൂക്ഷിച്ചു വയ്ക്കുകയുമില്ല. അതായത്, ഉദാഹരണങ്ങളിൽ വരുത്തുന്ന മാറ്റങ്ങൾ
+മറ്റൊരു താളിലേയ്ക്കു നീങ്ങുമ്പോൾ നഷ്ടപ്പെടും.
 
-If you have a TeX system installed locally, then you may copy the
-example code off the page, either explicitly selecting it, or by
-using select all keyboard shortcuts in the editor
-(<kbd>Ctrl</kbd>+<kbd>A</kbd> <kbd>Ctrl</kbd>+<kbd>C</kbd>
-in windows for example). This will place the code in your operating system
-clipboard so you can start a blank document using your local
-editor, and paste in the text.
 
-### Troubleshooting
+##### സ്വയം ഇന്‍സ്റ്റാൾ ചെയ്ത ടെൿ സംവിധാനം
 
-Our examples are based around using an up-to-date LaTeX installation. They all 
-work with both of our online demonstration systems, so if you get errors with 
-the examples we provide, you might want to check if your LaTeX system is 
-up-to-date.
+നിങ്ങളുടെ കംപ്യൂട്ടറിൽ ടെൿ ഇന്‍സ്റ്റാൾ ചെയ്തിട്ടുണ്ടെങ്കിൽ, ഉദാഹരണത്തിന്റെ കോഡ് പകര്‍ത്തിയെടുത്ത് (ഇതിനായി <kbd>Ctrl</kbd>+<kbd>A</kbd> <kbd>Ctrl</kbd>+<kbd>C</kbd>
+കീബോഡ് സൂത്രക്കട്ടകൾ ഉപയോഗിക്കാവുന്നതാണ്) കംപ്യൂട്ടറിലെ ടെക്സ്റ്റ് എഡിറ്റർ തുറന്ന് അതിൽ പതിപ്പിച്ച്; ടെൿ പ്രവര്‍ത്തിപ്പിച്ച് ഫലം കാണാം.
+
+### പ്രശ്നനിര്‍ദ്ധാരണം
+
+ഞങ്ങളുടെ എല്ലാ ഉദാഹരണങ്ങളും ആധുനികമായ ലാറ്റെൿ പതിപ്പിനെ അടിസ്ഥാനമാക്കിയുള്ളതാണ്. എല്ലാം തന്നെ മുകളിൽ സൂചിപ്പിച്ച
+രണ്ടു് ഓണ്‍ലൈൻ സേവനങ്ങളിലും ശരിയായി പ്രവര്‍ത്തിക്കും. നിങ്ങളൂടെ കംപ്യൂട്ടറിൽ ഈ ഉദാഹരണങ്ങൾ പ്രവര്‍ത്തിപ്പിക്കുമ്പോൾ പിശകു വരുന്നെങ്കിൽ ലാറ്റെൿ പതിപ്പ് പുതുക്കിയിട്ടുണ്ടോ എന്നു പരിശോധിക്കുക.
 
 ---
 
-## Choosing the TeX engine
+## ടെൿ എന്‍ജിൻ തിരഞ്ഞെടുക്കുന്നത്
 
-When submitting example documents, by default the `pdflatex` engine will be used.
+മാതൃകാപ്രമണങ്ങൾ സമര്‍പ്പിക്കുമ്പോൾ സാധാരണഗതിയിൽ `pdflatex` എന്‍ജിനാണ് ഉപയോഗിക്കുക.
 
-You can force the choice of `latex`, `pdflatex`, `xelatex`, `lualatex`,
-`platex` or `uplatex` by using a comment of the form:
+`latex`, `pdflatex`, `xelatex`, `lualatex`,
+`platex` അഥവാ `uplatex` എന്നിവ പകരം ഉപയോഗിക്കുവാൻ താഴെ കൊടുത്തിരിക്കുന്നതു പോലെ ഒരു കമന്റ് ചേര്‍ക്കുക:
 
-`% !TEX ` _any text_ `lualatex`
+`% !TEX ` _എന്തെങ്കിലും പാഠം_ `lualatex`
 
-where the white space at the start is optional and case is ignored as
-is _any text_ between the first and last word.
+ഇതിൽ  തുടക്കത്തിലുള്ള ഒഴിഞ്ഞ സ്ഥലം കൊടുക്കണമെന്നും വലിയ അക്ഷരങ്ങളിൽ കൊടുക്കണമെന്നും നിര്‍ബന്ധമില്ല, _എന്തെങ്കിലും പാഠം_  എന്നത്
+അവഗണിക്കപ്പെടുകയും ചെയ്യും.
 
-This allows the form `% !TEX program=pdflatex` used by some TeX editors
-but does not require the `program=` and is currently restricted to
-specifying just one of the engines that are supported on
-the online systems being used.
+ചില ടെൿ എഡിറ്ററുകൾ ഉപയോഗിക്കുന്ന `% !TEX program=pdflatex` എന്ന രൂപവും ഇതിനാൽ പിന്തുണയുണ്ട്, പക്ഷേ
+`program=` എന്നതു നിര്‍ബന്ധമല്ല. ഇങ്ങനെ കൊടുക്കുന്നതിൽ മുമ്പു പ്രസ്താവിച്ച ഓണ്‍ലൈൻ സേവനങ്ങൾ പിന്തുണയ്ക്കുന്ന എന്‍ജിനുകൾ മാത്രമേ നിലവിൽ ഉപയോഗിക്കുവാൻ സാധിക്കൂ.
 
-You can see an example of a comment being used to specify LuaLaTeX in
-[some of the examples on this site](more-14).
+ലുവാലാറ്റെൿ ഉപയോഗിക്കാനുള്ള ഒരു കമന്റിന്റെ മാതൃക [ഈ വെബ്‌സൈറ്റിലെ ചില ഉദാഹരണങ്ങളിൽ](more-14) കാണാം.
 
-If `platex` or `uplatex` is specified; then the `dvipdfmx` program is
-also used to produce the PDF result from the DVI file that these variants generate.
-Similarly `dvips` and `ps2pdf` are used if `latex` is specified.
+`platex` അല്ലെങ്കിൽ  `uplatex` ആണു നിര്‍ദ്ദേശിച്ചതെങ്കിൽ `dvipdfmx` പ്രവര്‍ത്തനം ഉപയോഗിച്ചാവും DVI പ്രമാണത്തിൽ നിന്നും പിഡിഎഫ് പ്രമാണമുണ്ടാക്കുന്നത്.
+അതുപോലെ, `latex`ആണു നിര്‍ദ്ദേശിച്ചതെങ്കിൽ  `dvips`, `ps2pdf` എന്നിവയായിരിക്കും ഉപയോഗിക്കുക.
 
-If the engine is not specified in a `% !TeX` comment, then `pdflatex` will be used
-unless you have specified a default TeX engine on the [Site Settings](settings) page.
+`% !TeX` കമന്റിനകത്ത് എന്‍ജിൻ പറയാതിരിക്കുകയും, സാധാരണ ഉപയോഗിക്കാനുള്ള ടെൿ എന്‍ജിൻ [സൈറ്റ് സജ്ജീകരണങ്ങളിൽ](settings) മുന്‍കൂട്ടി പറഞ്ഞിട്ടുമില്ലെങ്കിൽ, `pdflatex`ആയിരിക്കും ഉപയോഗിക്കുക.
 
 ---
 
