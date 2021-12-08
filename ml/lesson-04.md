@@ -1,27 +1,26 @@
 ---
 layout: "lesson"
-lang: "en"
-title: "Logical structure"
-description: "This lesson shows some basic formatting commands, and compares them with semantic formatting with sectioning commands and lists."
-toc-anchor-text: "Logical structure"
-toc-description: "Structure and visual presentation."
+lang: "ml"
+title: "യുക്തിസഹമായ ഘടന"
+description: "ഈ പാഠത്തിൽ മൗലികമായ കുറെ ആജ്ഞകളും, അവയുടെ ധർമ്മം ആജ്ഞകളുടെ വാഗർത്ഥവുമായി എന്തുമാത്രം ബന്ധപ്പെട്ടിരിക്കുന്നു എന്ന കാര്യവും വിവിധ ഖണ്ഡങ്ങളുടെയും സൂചികളുടെയും പ്രയോഗത്തിലൂടെ വിശദമാക്കുന്നു."
+toc-anchor-text: "യുക്തിസഹമായ ഘടന"
+toc-description: "ഘടനയും ദൃശ്യവൽക്കരണവും."
 ---
 
-# Logical structure
+# യുക്തിസഹമായ ഘടന 
 
-<span
-  class="summary">This lesson shows some basic formatting commands, and compares them with semantic formatting with sectioning commands and lists.</span>
+<!---
+<span class="summary">This lesson shows some basic formatting commands, and compares them with semantic formatting with sectioning commands and lists.</span>
+--->
+<span class="summary">
+ഈ പാഠത്തിൽ നമ്മൾ പരിചയപ്പെടാൻ പോകുന്നതു് ലാറ്റെക്കിൽ പാഠത്തെ വിന്യസിക്കുവാൻ ഉപയോഗിക്കുന്ന വളരെ ലളിതമായ കുറെ ആജ്ഞകളും അവയെങ്ങനെ പ്രമാണത്തിന്റെ വിവിധ ഖണ്ഡങ്ങൾ, പട്ടികകള്‍ എന്നിവയുടെ സാധാരണ വ്യവഹരിക്കുന്ന പേരുകളുമായി എത്രമാത്രം യോജിച്ചിരിക്കുന്നു എന്നതിന്റെ പരിശോധനയുമാണു്.</span>
 
-LaTeX provides ways to concentrate on the logical structure of your document, as well as the
-ability to directly set the appearance. Most of the time, it's much better to use
-methods that focus on structure, as that makes it easy to reuse or alter
-appearance when you have to.
 
-## Structure and visual presentation
+ലാറ്റെക്കിന്റെ ഏറ്റവും വലിയ സവിശേഷത പ്രമാണത്തിന്റെ ഘടനയിൽ ശ്രദ്ധിക്കാനും അതേ സമയം പാഠത്തിലെ വിവിധ ഘടകങ്ങളുടെ ദൃശ്യാവിഷ്ക്കരണത്തെ നിയന്ത്രിക്കാനും സഹായിക്കുന്നു എന്നതത്രെ. എന്നിരിക്കിലും, പ്രമാണത്തിന്റെ യുക്തിപരമായ ഘടനയിൽ ശ്രദ്ധിക്കുന്നതാണു് എപ്പോഴും അഭികാമ്യം. എന്തെന്നാൽ, അതു് വിവിധ ഘടകങ്ങളെ/വസ്തുക്കളെ പുനഃരുപയോഗിക്കാൻ അവസരം നൽകുന്നു എന്നു മാത്രമല്ല, അവയുടെ ദൃശ്യരീതിയിൽ മാറ്റം വരുത്താൻ വളരെയധികം എളുപ്പമാക്കുകയും ചെയ്യുന്നു.
 
-We'll start with an example contrasting one of the most common logical markup
-commands in LaTeX, `\emph`, with simply making something italic. (In print,
-that's usually how things are emphasized.)
+## ഘടനയും ദൃശ്യാവിഷ്ക്കരണവും 
+
+ലാറ്റെക്കിൽ സാർവ്വജനീനമായി ഉപയോഗിച്ചുവരുന്ന ഒരു മാർക്കപ്പിൽ തന്നെ നമുക്കു് തുടങ്ങാം: `\emph`.  ഈ ആജ്ഞ, പാഠത്തെ ചരിഞ്ഞ അക്ഷരങ്ങളിൽ വിന്യസിക്കുവാൻ സഹായിക്കുന്നു. (അച്ചടിയിൽ, അങ്ങനെയാണല്ലോ ഒന്നോ അതിൽക്കൂടുതലോ പദങ്ങളെ പ്രാധാന്യം കൽപ്പിച്ചു് കാണിക്കാനാവുക.)
 
 ```latex
 \documentclass{article}
@@ -33,29 +32,26 @@ Some text in \textit{italic and \textit{nested} content}.
 \end{document}
 ```
 
+<!---
 You can probably guess that `\textit` is a command to make text italic, but it
 _always_ makes things italic, so it doesn't work for nested material. See how
 `\emph` _does_ know about nesting. There are also places where the emphasis
-isn't the same as italic; for example, in presentations color is usually a better
-option. With logical markup, we don't have to worry about that detail in the
-body of the document.
+isn't the same as italic; for example, in presentations color is usually a better option. With logical markup, we don't have to worry about that detail in the body of the document.--->
 
-We will look at [manual formatting later](lesson-11), but for the moment we'll
-add `\textbf` to commands we know: it makes text bold.
+`\textit` എന്ന ആജ്ഞയും ചരിഞ്ഞ അക്ഷരങ്ങൾ സൃഷ്ടിക്കുവാനുള്ളതെന്നു‍ നിങ്ങൾ ഒരുപക്ഷെ ഊഹിച്ചിരിക്കാം. പക്ഷെ, _അതെപ്പോഴും_ പാഠത്തെ ചരിഞ്ഞ അക്ഷരങ്ങളിലാക്കുന്നു, എന്നല്ലാതെ, ചരിഞ്ഞ അക്ഷരങ്ങളുള്ള പാഠത്തിനുള്ളിൽ ഒരു പദത്തിനു് വീണ്ടും ഊന്നൽ നൽകാൻ സഹായിക്കുന്നില്ല. ഈ അവസരത്തിലാണു് `\emph` പ്രയോജനപ്പെടുന്നതു്. മാത്രവുമല്ല, ചില സാഹചര്യങ്ങളിൽ, പ്രത്യേകിച്ചു് അവതരണങ്ങളിൽ, ഊന്നൽ നൽകാൻ ചരിഞ്ഞ അക്ഷരങ്ങളെക്കാൾ നിറങ്ങൾ കൂടുതൽ സഹായിക്കുന്നതായി കാണാം. `\emph` പോലുള്ള യുക്തിപരമായ മാർക്കപ്പുകളാവുമ്പോൾ ഇത്തരം വിശദാംശങ്ങളെക്കുറിച്ചോർത്തു് വേവലാതിപ്പെടാതെ വേഗം മാറ്റാനുള്ള എളുപ്പമാർഗ്ഗങ്ങളും ലാറ്റെൿ നമുക്കു് തരുന്നുണ്ടു്.
 
-## Sectioning commands
 
-You probably have used a word processor, where  to start a section most people
-enter the title text then simply make it bigger and bold, and follow it with a
-new line. In LaTeX, using logical markup is actually _easier_ than doing the
-formatting by hand; we can use the `\section` command. This handles the font
-changes, vertical space, etc., and keeps the output uniform throughout the
-document.
+നമുക്കു് [മാനുവൽ ഫോർമറ്റിങ്](lesson-11)-നെക്കുറിച്ചു് പിന്നീടു് പഠിക്കാം. എന്നിരിക്കിലും നമ്മുടെ അറിവിന്റെ ശേഖരത്തിലേയ്ക്കു് ഒരു ആജ്ഞ കൂടി ചേർക്കാം: `\textbf`. ഇതു് പദങ്ങളെ കനം കൂടിയ അക്ഷരങ്ങളിൽ വിന്യസിക്കുവാൻ സഹായിക്കുന്ന ഒന്നാണു്.
+
+## ശീർഷകങ്ങളുടെ നിർമ്മിതി
+
+വിവിധ തലത്തിലുള്ള ശീർഷകങ്ങൾ നിവേശിച്ചതിനുശേഷം അവയുടെ ലിപി വലിപ്പം കൂട്ടുകയോ കനം കൂട്ടുകയോ ചെയ്യുകയെന്നതു് വേഡ് പ്രോസസറുകൾ ഉപയോഗിച്ചു് ശീലിച്ചവർക്കു് അറിവുള്ളതാണു്. അതിനുശേഷം പാഠം അടുത്ത വരിയിൽ നിന്നും തുടങ്ങുകയു ചെയ്യുന്നു. ഇതിൽ നിന്നു് വ്യത്യസ്ഥമായ ഒരു ലോജിക്കൽ മാർക്കപ്പ് രീതിയാണു് ലാറ്റെൿ അവലംബിച്ചിട്ടുള്ളതു്. ശീർഷകത്തിന്റെ തലം (level) അനുസരിച്ചു്, അതു് സൂചിപ്പിക്കുന്ന തരത്തിലുള്ള ആജ്ഞകളാണു് ഇവിടെ ഉപയോഗിക്കുന്നതു്. ഈ ആജ്ഞകൾ ഓർത്തിരിക്കാൻ എളുപ്പമെന്നു മാത്രമല്ല, ഓരോ തവണയും ശീർഷകങ്ങൾ വേഡ് പ്രോസസറുകളിലേതുപോലെ നേരിട്ടു് വിന്യസിക്കേണ്ട ആവശ്യവുമില്ല. ആജ്ഞകൾ ശീർഷകങ്ങളുടെ അതാതു തലം അനുസരിച്ചു് വേണ്ട ലിപി വലിപ്പം, കനം, ആകൃതി, മുൻ/പിൻ ശൂന്യസ്ഥലം എന്നിവ യാന്ത്രികമായി നൽകി വേണ്ട രീതിയിൽ വിന്യസിച്ചുകൊള്ളും. നമ്മളറിയാതെ തന്നെ പ്രമാണമാസകലം ഈ ശീർഷകങ്ങളുടെ വിന്യാസത്തിലുളള ഏകതാനത പ്രയത്നരഹിതമായി കിട്ടുമെന്ന ആനുകൂല്യവുമുണ്ട്.
 
 ```latex
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \begin{document}
+
 Hey world!
 
 This is a first document.
@@ -77,30 +73,27 @@ Text of the second section.
 \end{document}
 ```
 
-Using the standard `article` setup, LaTeX numbers the sections and subsections
-and includes the titles in boldface. We'll think a bit about changing design [in
-the next lesson](lesson-05).
+ലാറ്റെക്കിന്റെ `article` എന്ന വർഗ്ഗത്തിന്റെ ക്രമീകരണം ഉപയോഗിക്കുകയാണെങ്കിൽ, പ്രമാണത്തിന്റെ വിവിധ ഖണ്ഡങ്ങളുടെ ശീർഷകങ്ങൾക്കു് യാന്ത്രികമായി ക്രമനമ്പർ നൽകാനും പദങ്ങളെ കനമുള്ള ലിപിയിൽ വിന്യസിക്കാനും കഴിയും. ഇവയുടെ സ്വതവേയുള്ള വിന്യാസരീതിൽ മാറ്റം വരുത്തണമെങ്കിൽ അതു് എങ്ങനെ സാദ്ധ്യമാക്കേണ്ടതെന്നു് [അടുത്ത പാഠത്തിൽ](lesson-05) നിന്നു് നമുക്കു് മനസ്സിലാക്കാം.
 
-LaTeX can divide up documents into quite a few levels
 
-- `\chapter` (but we need `\documentclass{book}` or
-  `\documentclass{report}` for this)
+ലാറ്റെക്കിനു് ഒരു പ്രമാണത്തെ വിവിധ ഖണ്ഡങ്ങളായി വിഭജിക്കാൻ കഴിയുമെന്നു് പറഞ്ഞുവല്ലോ.
+
+- `\chapter` (ഇതു് സാദ്ധ്യമാക്കാൻ നമുക്കു് `\documentclass{book}` അല്ലെങ്കിൽ
+  `\documentclass{report}` വേണ്ടിവരും)
 - `\section`
 - `\subsection`
 - `\subsubsection`
 
-We can go further: the next one 'down' is `\paragraph`, but almost always that's
-too much 'detail' in sections. (Yes, `\paragraph` is a section command, _not_ a
-way to start a new paragraph!)
 
-You might wonder about the title of a document. There are some special
-commands for that, but not all documents use them, so we've
-[covered that in the parallel extra lesson](more-04).
+മുകളിൽ കാണിച്ചിരിക്കുന്നതു കൂടാതെ ഇനിയും രണ്ടു് തലങ്ങൾ കൂടി താഴെയുണ്ടു്. അവ യഥാക്രമം `\paragraph`, `\subparagraph` എന്നിവയാണു്. ഈ രണ്ടു് ആജ്ഞകളും ഖണ്ഡികകളെ സൂചിപ്പിക്കുന്നവയല്ല എന്നു് പ്രത്യേകം അറിയുക, മറിച്ചു്, `\subsubsection`-നു കീഴിലുള്ള ശീർഷകങ്ങൾ സൃഷ്ടിക്കുവാനുള്ള ആജ്ഞകളാണു്.
 
-## Lists
 
-The other very common place you'll want logical markup is writing lists.
-There are two common types of list built in to LaTeX.
+ഇപ്പോൾ നിങ്ങൾ ഒരുപക്ഷെ പ്രമാണത്തിന്റെ തന്നെ പ്രധാന ശീർഷകത്തെക്കുറിച്ചു് ചിന്തിക്കുന്നുണ്ടാവും. അതിനു് ചില പ്രത്യേകതരം ആജ്ഞകൾ ഉപയോഗിക്കുന്നതുകൊണ്ടും അവ എല്ലാതരം പ്രമാണങ്ങളിലും ഉപയോഗിക്കാത്തതുകൊണ്ടു് [ഇതിന്റെ തുടർച്ചയായ മറ്റൊരു പാഠത്തിൽ](more-04) വിശദമായി വിവരിക്കുന്നുണ്ടു്.
+
+
+## സൂചി
+
+ലാറ്റെക്കിൽ സർവ്വസാധാരണമായി കാണുന്ന ഒരു വിന്യാസരീതിയാണു് പാഠത്തെ ഇനം തിരിച്ചുള്ള സൂചികളായി അവതരിപ്പിക്കുക എന്നതു്. പലതരം സൂചികൾ പ്രയോഗത്തിലുണ്ടു് --- അക്കസൂചി (enumerated list), ചിഹ്നസൂചി (itemized list), പദസൂചി (description list).
 
 ```latex
 \documentclass{article}
@@ -124,16 +117,13 @@ Unordered
 \end{document}
 ```
 
-Notice that we use `\item` to start each entry, and that the marker used  for
-each type of list is added automatically.
+ഇവിടെ പ്രത്യേകം ശ്രദ്ധിക്കാനുള്ള ഒരു കാര്യം ഇവിടെ ഓരോ ഇനത്തെയും വിന്യസിക്കാൻ `\item` എന്ന ഒറ്റ ആജ്ഞയാണു് ഉപയോഗിക്കുന്നതു് എന്നതത്രെ. സൂചിയുടെ വകഭേദമനുസരിച്ചു് ഇനത്തിന്റെ അടയാളം യാന്ത്രികമായി മാറിക്കൊള്ളും. 
 
-## Exercises
 
-Experiment with different sectioning levels. Try using `\documentclass{report}`
-instead of `\documentclass{article}` and adding `\chapter` commands. How
-do they look? Try out `\paragraph` and (even) `\subparagraph` to see they work:
-by default, they _don't_ add numbers.
+## അഭ്യാസം
 
-Make some lists, and nest one list inside another. How does the format of the
-numbers or markers change? You can only go to four levels with standard LaTeX,
-but more than four nested lists tends to be a bad sign anyway!
+വിവിധ ഖണ്ഡങ്ങളുടെ ആജ്ഞകളുപയോഗിച്ചു് പരീക്ഷണങ്ങൾ നടത്തുക. `\documentclass{article}` എന്നതിനു പകരം `\documentclass{report}` എന്നുപയോഗിക്കുകയും `\chapter` എന്ന ആജ്ഞ പ്രയോഗത്തിൽ എങ്ങനെ വിന്യസിക്കപ്പെടുന്നു എന്നു് അറിയുക. അതുകൂടാതെ `\paragraph`, `\subparagraph` എന്നിവയെയും പരീക്ഷിച്ചറിയുക. അവസാനം പറഞ്ഞ രണ്ടു് ആജ്ഞകളും ശീർഷകങ്ങൾക്കു് ക്രമനമ്പർ നൽകുന്നില്ല എന്നു് കാണാൻ കഴിയും. 
+
+
+വിവിധതരം സൂചികൾ സൃഷ്ടിക്കുക. അവ പലതരത്തിൽ ഒന്നിനകത്തു് വേറൊരു തരം സൂചി പരീക്ഷിക്കുക. വിവിധ ഇനങ്ങളുടെ അടയാളങ്ങൾ സൂചിയുടെ വർഗ്ഗം മാറുന്നതനുസരിച്ചു് അക്കമായും ചിഹ്നമായി മാറുന്നതു് കാണുക. 
+
